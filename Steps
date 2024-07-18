@@ -1,0 +1,15 @@
+Firstly, identify these components from circuit diagram
+Secondly, cut the foam board piece as follows (18*12)
+Thirdly, glue the four gear motors to the foam board piece.
+Then, attach the motor shield to the  Arduino board and glue it to the robot chassis.
+Next, dig two holes on either side of the Arduino board and insert the gear motor wire through these holes.
+Then, connect the motors to the motor driver shield. To do this, use the circuit diagram.
+Afterward, attach the servo motor and ultrasonic sensor as follows.
+Next, connect the servo motor and the ultrasonic sensor using the circuit diagram.
+Then, connect the Bluetooth module to the motor driver shield and glue it to the robot chassis.
+After, glue the battery holder and connect it to the driver shield.
+Now, attach the robot wheels and put the batteries to the battery holder.
+So, let’s create the program for this project. This program includes all three functions. We can run these separately.
+Obstacle avoidance program, OK, now connect this robot car to the computer. Then, remove the two forward slashes in front of the “obstacle” function. Next, remove the RX and TX jumper wires connected to the Bluetooth module.Now, select board and port. After, upload this code to the robot and reconnect the RX and TX jumper wires.
+Bluetooth control program.OK, now connect this robot car to the computer. Then, remove the two forward slashes in front of the “Bluetooth control” function. Next, remove the RX and TX jumper wires connected to the Bluetooth module.Now, select board and port. After, upload this code to the robot and reconnect the RX and TX jumper wires.OK, now download and install the app (Arduino Bluetooth RC Car).After, run this application and click the Settings button. Then, click the “Connect to Car” button and select the name of the Bluetooth module. Now, you can see the green bulb in the corner.OK, now click the controller buttons and enjoy it.
+Voice control program.OK, now connect this robot car to the computer. Then, remove the two forward slashes in front of the “voicecontrol” function. Next, remove the RX and TX jumper wires connected to the Bluetooth module.Now, select board and port. After, upload this code to the robot and reconnect the RX and TX jumper wires.OK, now download and install the app (Arduino Bluetooth Control).After, run this application and click the setting button. Then, click the “voice commands configuration ” button and include the commands one by one.
